@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Musescore To Pdf</title>
+        <link rel="icon" href="favicon.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Musescore Link to PDF Converter</h1>
+        <p>This is a website that converts musescore links to a Pdf free of charge. All you need todo is enter a link from Musescore and wait for you PDF to be created.</p>
+        <br>
+        <input type="text" placeholder="Link goes here" id="inputUrl">
+        <button id="go" class="button">Go</button>
+        <p id="selected">Link: <a id="url"></a></p>
+        <br>
+        <h4 class="final">You can download your link from here:</h4>
+        <a id="download" class="final" href="output.pdf" download="musescore2pdf.pdf"><button class="button">Download</button></a>
+    </body>
+</html>

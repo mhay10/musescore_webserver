@@ -1,0 +1,14 @@
+* {
+    font-family: 'Verdana';
+    text-align: center;
+}
+
+.button {
+    min-width: 88px;
+    min-height: 35px;
+    margin: 4px;
+}
+#inputUrl
+{
+    min-height: 25px;
+}
